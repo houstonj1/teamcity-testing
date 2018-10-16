@@ -12,6 +12,6 @@ app.get('/', (request, response) => {
   response.send('This works')
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`Server started, listening on port ${PORT}`)
 })
