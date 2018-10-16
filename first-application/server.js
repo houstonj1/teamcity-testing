@@ -9,7 +9,7 @@ const app = express()
 const PORT = 8080
 
 app.get('/', (request, response) => {
-  response.send('This also works')
+  response.send('This works')
 })
 
 app.listen(process.env.PORT || PORT, () => {
