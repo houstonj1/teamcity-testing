@@ -1,0 +1,25 @@
+{
+  "name": "first-application",
+  "version": "1.0.0",
+  "description": "TeamCity test application in Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houstonj1/teamcity-testing.git"
+  },
+  "author": "James Houston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houstonj1/teamcity-testing/issues"
+  },
+  "homepage": "https://github.com/houstonj1/teamcity-testing#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
