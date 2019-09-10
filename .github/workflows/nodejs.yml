@@ -3,7 +3,7 @@ name: Node CI - first project
 on:
   push:
     paths:
-      - 'first-project/*'
+      - 'first-application/*'
 
 jobs:
   build:
